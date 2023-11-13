@@ -22,13 +22,13 @@ defineProps({
   font-size: 2rem;
   text-align: center;
   text-decoration: none;
-  margin: 0 .5rem 0;
+  margin: 0 0.5rem 0;
 }
 
 .fa:hover {
   font-size: 2.5rem;
   animation-timing-function: linear;
-  transition: .1s;
+  transition: 0.1s;
   background: none !important;
 }
 
@@ -49,7 +49,6 @@ h3 {
 }
 
 @media (min-width: 1024px) {
-
   .greetings h1,
   .greetings h3 {
     text-align: left;

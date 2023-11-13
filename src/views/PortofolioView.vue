@@ -1,18 +1,15 @@
 <script>
-import { ref } from 'vue';
+import { ref } from 'vue'
 
 export default {
   setup() {
-    const img = ref([
-      "https://picsum.photos/1920/1080",
-      "https://picsum.photos/1080/1920"
-    ]);
+    const img = ref(['https://picsum.photos/1920/1080', 'https://picsum.photos/1080/1920'])
 
     return {
       img
-    };
+    }
   }
-};
+}
 </script>
 
 <template>
@@ -25,14 +22,12 @@ export default {
   </div>
 </template>
 
-
-
 <style scoped>
 ul {
   list-style-type: none;
   margin-bottom: 50px;
 }
-img{
+img {
   height: 350px;
   object-fit: cover;
 }

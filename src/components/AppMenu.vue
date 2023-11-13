@@ -7,8 +7,7 @@
         @click="setActivePage(el.id)"
         :class="{
           active: activePage === el.id ? true : false,
-          'animate__animated animate__fadeIn':
-            activePage === el.id ? true : false,
+          'animate__animated animate__fadeIn': activePage === el.id ? true : false
         }"
       >
         <button class="d-flex align-items-center">
@@ -24,29 +23,29 @@
 
 <script>
 export default {
-  props: ["setActivePage", "activePage"],
+  props: ['setActivePage', 'activePage'],
   data() {
     return {
       menu: [
         {
           id: 1,
-          name: "Home",
-          icon: "house-chimney",
+          name: 'Home',
+          icon: 'house-chimney'
         },
         {
           id: 2,
-          name: "Portfolio",
-          icon: "briefcase",
+          name: 'Portfolio',
+          icon: 'briefcase'
         },
         {
           id: 3,
-          name: "Contact",
-          icon: "envelope-open",
-        },
-      ],
-    };
-  },
-};
+          name: 'Contact',
+          icon: 'envelope-open'
+        }
+      ]
+    }
+  }
+}
 </script>
 
 <style lang="scss" scoped></style>

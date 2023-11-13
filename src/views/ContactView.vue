@@ -2,7 +2,9 @@
   <div class="content">
     <div class="">
       <i class="fa fa-envelope"></i>
-      <a href="mailto:augustinus.triputra@binus.ac.id" class="c-item"> augustinus.triputra@binus.ac.id</a>
+      <a href="mailto:augustinus.triputra@binus.ac.id" class="c-item">
+        augustinus.triputra@binus.ac.id</a
+      >
     </div>
     <br />
     <div class="">

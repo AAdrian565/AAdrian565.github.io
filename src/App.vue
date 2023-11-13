@@ -70,7 +70,6 @@ nav a:first-of-type {
     margin: 0 2rem 0 0;
   }
 
-
   nav {
     text-align: left;
     margin-left: -1rem;

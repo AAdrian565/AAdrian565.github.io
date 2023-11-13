@@ -4,7 +4,7 @@
   --vt-c-white-soft: #f8f8f8;
   --vt-c-white-mute: #f2f2f2;
 
-  --vt-c-black: #2C313A;
+  --vt-c-black: #2c313a;
   --vt-c-black-soft: #222222;
   --vt-c-black-mute: #282828;
 
@@ -60,7 +60,7 @@
   margin: 0;
   font-weight: normal;
 }
-#app{
+#app {
   background-color: var(--color-background);
   color: var(--color-text);
 }
@@ -91,4 +91,3 @@ body {
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
 }
-

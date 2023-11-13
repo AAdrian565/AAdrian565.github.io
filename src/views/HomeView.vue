@@ -1,6 +1,7 @@
 <script setup>
-let title = "Web Developer"
-let paragraph = "As a web developer, I am currently immersed in learning Vue.js to enhance my front-end development skills. Passionate about creating engaging user interfaces"
+let title = 'Web Developer'
+let paragraph =
+  'As a web developer, I am currently immersed in learning Vue.js to enhance my front-end development skills. Passionate about creating engaging user interfaces'
 </script>
 
 <template>
