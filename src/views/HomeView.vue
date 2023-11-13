@@ -44,7 +44,6 @@ p {
     flex-direction: column;
     align-items: center;
     justify-content: center;
-    text-align: left;
   }
 }
 </style>
