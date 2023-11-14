@@ -10,9 +10,13 @@ import Name from './components/PortoName.vue'
     <div class="wrapper">
       <Name msg="Augustinus Adrian Triputra" />
       <nav>
-        <RouterLink to="/">Home</RouterLink>
-        <RouterLink to="/portofolio">Portofolio</RouterLink>
-        <RouterLink to="/contact">Contact Me</RouterLink>
+        <RouterLink to="/" class="bt">Home</RouterLink>
+        <RouterLink to="/portofolio" class="bt">Portofolio</RouterLink>
+        <RouterLink to="/contact" class="bt">Contact Me</RouterLink>
+        <a href="" class="bt">
+          <i class="fa fa-download"></i>
+          CV Download
+        </a>
       </nav>
     </div>
   </header>
@@ -21,6 +25,11 @@ import Name from './components/PortoName.vue'
 </template>
 
 <style scoped>
+.bt {
+  font-size: 1.3rem;
+  font-family: Inter;
+}
+
 header {
   line-height: 1.5;
   max-height: 100vh;
@@ -60,12 +69,15 @@ nav a:first-of-type {
 }
 
 @media (min-width: 1024px) {
-  header{
+  header {
     position: sticky;
     left: 0;
     top: 0
-  };
+  }
+
+  ;
 }
+
 @media (min-width: 1024px) {
   header {
     display: flex;

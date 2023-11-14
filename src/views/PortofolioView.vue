@@ -39,6 +39,7 @@ export default {
 
 <template>
   <div class="content">
+    <h1 class="green">Past Projects</h1>
     <ul>
       <li v-for="(item, index) in items" :key="index" class="item-list">
         <a :href="item.link">
@@ -56,6 +57,11 @@ export default {
 </template>
 
 <style scoped>
+h1{
+  margin-top: 50px;
+  margin-bottom: 50px;
+}
+
 ul {
   list-style-type: none;
   margin-bottom: 50px;
