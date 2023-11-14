@@ -6,17 +6,17 @@ export default {
     const items = [
       {
         title: 'wayland desktop',
-        img: 'src/assets/project_wayland.png',
+        img: 'https://raw.githubusercontent.com/AAdrian565/projects/main/project_wayland.png',
         description: 'mainly built by using waybar (css) and eww (scss, yuck)',
       },
       {
         title: 'BookIt',
-        img: 'src/assets/project_bookit.png',
+        img: 'https://raw.githubusercontent.com/AAdrian565/projects/main/project_bookit.png',
         description: 'Room booking app built using laravel',
       },
       {
         title: 'Library',
-        img: 'src/assets/project_library.png',
+        img: 'https://raw.githubusercontent.com/AAdrian565/projects/main/project_library.png',
         description: 'Library boooking app build in java',
       },
     ];
