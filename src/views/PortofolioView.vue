@@ -23,6 +23,18 @@ export default {
         link: 'https://github.com/deltathrs/EventRadar'
       },
       {
+        title: 'GoRest',
+        img: 'https://raw.githubusercontent.com/AAdrian565/portofolio-vue/main/src/assets/project_gorest.png',
+        description: 'Front end, Back end, and API for restaurant built using golang',
+        link: 'https://github.com/AAdrian565/gorest'
+      },
+{
+        title: 'Planetarium AR',
+        img: 'https://raw.githubusercontent.com/AAdrian565/portofolio-vue/main/src/assets/project_planetariumAR.jpg',
+        description: 'An AR APP built by using unity to show planet in AR',
+        link: 'https://github.com/AAdrian565/gorest'
+      },
+      {
         title: 'Library',
         img: 'https://raw.githubusercontent.com/AAdrian565/portofolio-vue/main/src/assets/project_library.png',
         description: 'Library boooking app build in java',
