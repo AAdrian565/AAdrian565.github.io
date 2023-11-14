@@ -60,6 +60,13 @@ nav a:first-of-type {
 }
 
 @media (min-width: 1024px) {
+  header{
+    position: sticky;
+    left: 0;
+    top: 0
+  };
+}
+@media (min-width: 1024px) {
   header {
     display: flex;
     place-items: center;

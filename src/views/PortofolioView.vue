@@ -5,14 +5,19 @@ export default {
   setup() {
     const items = [
       {
-        title: 'Item 1',
-        img: 'https://picsum.photos/1920/1080',
-        description: 'Description for Item 1',
+        title: 'wayland desktop',
+        img: 'src/assets/project_wayland.png',
+        description: 'mainly built by using waybar (css) and eww (scss, yuck)',
       },
       {
-        title: 'Item 2',
-        img: 'https://picsum.photos/1920/1080',
-        description: 'Description for Item 2',
+        title: 'BookIt',
+        img: 'src/assets/project_bookit.png',
+        description: 'Room booking app built using laravel',
+      },
+      {
+        title: 'Library',
+        img: 'src/assets/project_library.png',
+        description: 'Library boooking app build in java',
       },
     ];
 
@@ -28,7 +33,7 @@ export default {
     <ul>
       <li v-for="(item, index) in items" :key="index" class="item-list">
         <div class="item-wrapper">
-          <img :src="item.img" alt="item-image" class="hover-image" />
+          <img :src="item.img" alt="item.title" class="hover-image" />
           <div class="item-details">
             <h1>{{ item.title }}</h1>
             <p>{{ item.description }}</p>
@@ -46,6 +51,7 @@ ul {
 }
 
 .item-wrapper {
+  margin-bottom: 25px;
   position: relative;
 }
 
