@@ -13,7 +13,7 @@ import Name from './components/PortoName.vue'
         <RouterLink to="/" class="bt">Home</RouterLink>
         <RouterLink to="/portofolio" class="bt">Portofolio</RouterLink>
         <RouterLink to="/contact" class="bt">Contact Me</RouterLink>
-        <a href="" class="bt">
+        <a href="https://raw.githubusercontent.com/AAdrian565/portofolio-vue/main/src/assets/CV.pdf" class="bt">
           <i class="fa fa-download"></i>
           CV Download
         </a>
