@@ -25,6 +25,9 @@ import Name from './components/PortoName.vue'
 </template>
 
 <style scoped>
+RouterLink{
+  font-family: Inter;
+};
 .bt {
   font-size: 1.3rem;
   font-family: Inter;
