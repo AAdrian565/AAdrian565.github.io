@@ -7,7 +7,7 @@ export default {
       {
         title: 'wayland desktop',
         img: 'https://raw.githubusercontent.com/AAdrian565/AAdrian565.github.io/main/src/assets/project_wayland.png',
-        description: 'mainly built by using waybar (css) and eww (scss, yuck)',
+        description: 'mainly built by using waybar jcssj and eww (scss, yuck)',
         link: 'https://github.com/AAdrian565/dotfiles'
       },
       {
