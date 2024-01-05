@@ -5,6 +5,12 @@ export default {
   setup() {
     const items = [
       {
+        title: 'Ormeal',
+        img: 'https://raw.githubusercontent.com/AAdrian565/AAdrian565.github.io/main/src/assets/project_ormeal.png',
+        description: 'Build an android app using flutter and firebase for auth and database',
+        link: 'https://github.com/AAdrian565/OrMeal'
+      },
+      {
         title: 'wayland desktop',
         img: 'https://raw.githubusercontent.com/AAdrian565/AAdrian565.github.io/main/src/assets/project_wayland.png',
         description: 'mainly built by using waybar jcssj and eww (scss, yuck)',
